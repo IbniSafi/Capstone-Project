@@ -1,0 +1,54 @@
+-------------------------------------------------------------------------------
+Test set: tek.sdet.framework.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 1.579 s <<< FAILURE! - in tek.sdet.framework.runner.TestRunner
+Retail Home Page.Verify department sidebar options #1  Time elapsed: 0.392 s  <<< ERROR!
+java.lang.ClassCastException: class java.lang.String cannot be cast to class java.lang.Boolean (java.lang.String and java.lang.Boolean are in module java.base of loader 'bootstrap')
+	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:48)
+	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:12)
+
+Retail Home Page.Verify department sidebar options #1  Time elapsed: 0.393 s  <<< ERROR!
+java.lang.NullPointerException
+	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:58)
+	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:21)
+
+Retail Home Page.Verify department sidebar options #2  Time elapsed: 0.056 s  <<< ERROR!
+java.lang.ClassCastException: class java.lang.String cannot be cast to class java.lang.Boolean (java.lang.String and java.lang.Boolean are in module java.base of loader 'bootstrap')
+	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:48)
+	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:12)
+
+Retail Home Page.Verify department sidebar options #2  Time elapsed: 0.056 s  <<< ERROR!
+java.lang.NullPointerException
+	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:58)
+	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:21)
+
+Retail Home Page.Verify department sidebar options #3  Time elapsed: 0.068 s  <<< ERROR!
+java.lang.ClassCastException: class java.lang.String cannot be cast to class java.lang.Boolean (java.lang.String and java.lang.Boolean are in module java.base of loader 'bootstrap')
+	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:48)
+	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:12)
+
+Retail Home Page.Verify department sidebar options #3  Time elapsed: 0.068 s  <<< ERROR!
+java.lang.NullPointerException
+	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:58)
+	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:21)
+
+Retail Home Page.Verify department sidebar options #4  Time elapsed: 0.044 s  <<< ERROR!
+java.lang.ClassCastException: class java.lang.String cannot be cast to class java.lang.Boolean (java.lang.String and java.lang.Boolean are in module java.base of loader 'bootstrap')
+	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:48)
+	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:12)
+
+Retail Home Page.Verify department sidebar options #4  Time elapsed: 0.044 s  <<< ERROR!
+java.lang.NullPointerException
+	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:58)
+	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:21)
+
+Retail Home Page.Verify department sidebar options #5  Time elapsed: 0.027 s  <<< ERROR!
+java.lang.ClassCastException: class java.lang.String cannot be cast to class java.lang.Boolean (java.lang.String and java.lang.Boolean are in module java.base of loader 'bootstrap')
+	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:48)
+	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:12)
+
+Retail Home Page.Verify department sidebar options #5  Time elapsed: 0.028 s  <<< ERROR!
+java.lang.NullPointerException
+	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:58)
+	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:21)
+
